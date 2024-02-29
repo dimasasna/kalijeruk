@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import hero1 from '../../assets/img/hero1.jpeg';
+import hero2 from '../../assets/img/hero2.webp';
 
 import { Autoplay } from 'swiper/modules';
 
@@ -44,10 +45,8 @@ export default function Hero() {
                 <h1 className='text-[30px] font-bold tracking-tighter mb-4'>Menginspirasi Kehidupan Sederhana: Desa, Sumber Inspirasi Tanpa Batas</h1>
                 <a className='w-fit bg-[#537561] text-white py-2 px-4 hover:bg-green-800 ho' href="">Lihat Selengkapnya</a>
               </div>
-              <div className='kanan w-[50%] mt-12'>
-                <div className='aspect-square w-[350px] mx-auto border border-black'>
-                  Gambar Nich
-                </div>
+              <div className='kanan lg:w-[50%] w-full lg:mt-8'>
+                <img className='shadow-2xl w-[90%]' src={hero2} alt="" />
               </div>
             </div>
           </SwiperSlide>
